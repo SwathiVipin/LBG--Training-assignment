@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #80579c;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #6c567a;
+  padding: 20px;
+  height: 1400px
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:  #e0d5e7;
+  height: 1400px; 
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #e4d4f0;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>My Profile</h2>
+  <img src ="/Users/apple/Documents/swathi.k/demo/Assignment/images/image1.jpg" style="width:200px;height:200px;">
+</header>
+
+<section>
+  <nav>
+    <ul>
+
+            <div class="row">
+                <h3>
+                    <li><a href="PersonalDetails.html">
+                    <div style="background-color:lavender;">Personal Details</div><br>
+                    <li><a href="TechnicalSkills.html">
+                    <div style="background-color:lavenderblush;">Technical Skills</div><br>
+                    <li><a href="ProjectDetails.html">
+                    <div style="background-color:lavender;">Project Details</div><br>
+                    <li><a href="TechTrained.html">
+                    <div style="background-color:lavenderblush;">Technologies Trained/Worked</div><br>
+                    </h3>
+                  </div>
+    </ul>
+  </nav>
+  
+  <article>
+     
+      <pre>To know about more click on the left side links </a></li></pre>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>

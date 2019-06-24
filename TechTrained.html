@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #80579c;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #6c567a;
+  padding: 20px;
+  height: 1400px
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:  #e0d5e7;
+  height: 1400px; 
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #e4d4f0;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+<header>
+  <h2>My Profile</h2>
+  <img src ="/Users/apple/Documents/swathi.k/demo/Assignment/images/image1.jpg" style="width:200px;height:200px;">
+</header>
+
+<section>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                <ul class="navbar-nav">
+                 <div class="row">
+            <li><a href="PersonalDetails.html">
+            <div style="background-color:lavender;">Personal Details</div>
+            <li><a href="TechnicalSkills.html">
+            <div style="background-color:lavenderblush;">Technical Skills</div>
+            <li><a href="ProjectDetails.html">
+            <div style="background-color:lavender;">Project Details</div>
+            <li><a href="TechTrained.html">
+            <div style="background-color:lavenderblush;">Technologies Trained/Worked</div>
+          </div>
+</ul>
+</nav>
+            
+      
+  </nav>
+  
+  <article>
+
+
+
+        <div id="1. Shell" class="container-fluid bg-success" style="padding-top:100px;padding-bottom:100px">
+                <h1>1. Shell</h1>
+                <pre><h3><li>Roles and Responsibilities</li></h3></pre>
+        <pre><li>Run SQl queries based on business needs</li></pre>
+        <pre><li>Provided employee access rights based on needs</li></pre>
+        <pre><li>troubleshooting remote machines</li></pre>
+        <pre><li>Installing softwares in remote machines</li></pre>
+        <pre><li>Working on assigned tickets</li></pre>>
+              </div>
+              <div id="2. Wipro Holmes ChatBot" class="container-fluid bg-warning" style="padding-top:100px;padding-bottom:100px">
+                <h1>2. Wipro Holmes ChatBot</h1>
+                <pre><h3><li>Roles and Responsibilities</li></h3></pre>
+                <pre><li>Automated chatbot using selenium java scripts</li></pre>
+                <pre><li>Preparing reports of tested datas</li></pre>
+              </div>
+              <div id="IBM Watson Training" class="container-fluid bg-secondary" style="padding-top:100px;padding-bottom:100px">
+                <h1>IBM Watson Training</h1>
+                <pre><h3><li>Roles and Responsibilities</li></h3></pre>
+                <pre><li>Created Own Chatbot</li></pre>
+                <pre><li>Tested the functionality of Chatbot</li></pre>
+              </div>
+              <div id="Python Training" class="container-fluid bg-danger" style="padding-top:100px;padding-bottom:100px">
+                    <h1>Python Training</h1>
+                    <pre><h3><li>Roles and Responsibilities</li></h3></pre>
+                    <pre><li>Praciced python codes</li></pre>
+                    <pre><li>Submitted Assignment</li></pre>
+              </div>
+            
+      <!--  <pre><h2><li><b>1. Shell</b></li></h2></pre>
+
+        <pre><h3><li>Roles and Responsibilities</li></h3></pre>
+        <pre><li>Run SQl queries based on business needs</li></pre>
+        <pre><li>Provided employee access rights based on needs</li></pre>
+        <pre><li>troubleshooting remote machines</li></pre>
+        <pre><li>Installing softwares in remote machines</li></pre>
+        <pre><li>Working on assigned tickets</li></pre>
+
+        <pre><h2><li><b>2. Wipro Holmes ChatBot</b></li></h2></pre>
+        <pre><h3><li>Roles and Responsibilities</li></h3></pre>
+        <pre><li>Automated chatbot using selenium java scripts</li></pre>
+        <pre><li>Preparing reports of tested datas</li></pre>
+      -->
+  </article>
+</section>
+
+</body>
+</html>
